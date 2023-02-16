@@ -1,5 +1,4 @@
 #include <stdio.h>
-//wap to create calcul
 int main(void) {
  int a,b;
   char ch;
@@ -7,7 +6,7 @@ int main(void) {
   printf("Press - for Subtraction\n");
   printf("Press * for Multiplication\n");
   printf("Press / for Division\n");
-  printf("Enter your Choice: ");
+  printf("Enter symbol of your Choice: ");
   scanf("%c",&ch);
   printf("Enter a: ");
   scanf("%d",&a);
